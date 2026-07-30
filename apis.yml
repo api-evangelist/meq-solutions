@@ -1,8 +1,24 @@
 aid: meq-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meq-solutions.png
 name: MEQ Solutions
-description: MEQ Solutions is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: MEQ Solutions is an Australian agrifood technology company delivering what it calls the
+  world's only end-to-end measurement of red meat quality and yield. Its integrated hardware-and-software
+  suite — MEQ Probe, MEQ Camera, MEQ Live, and MEQ Insights — gives producers, feedlots, processors,
+  brands, retailers, and food-service operators objective, real-time carcass and eating-quality data.
+  Deployed across Australia, New Zealand, the United States, and Brazil, MEQ has completed over 10 million
+  scans across 60+ deployments and reports a demonstrated 10x ROI. The company is backed by Insight Partners.
+  No public developer API surface is currently published; the meqinsights.com portal is a customer login.
 url: https://raw.githubusercontent.com/api-evangelist/meq-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agriculture
+- Agrifood
+- Food
+- Meat
+- Livestock
+- Measurement
+- Quality Assurance
+- Technology
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/meq-solutions-domain-security.yml
 - type: Website
   url: https://meqsolutions.com/
+- type: Support
+  url: https://meqsolutions.com/contact-us
+- type: PrivacyPolicy
+  url: https://meqsolutions.com/privacy-policy
+- type: Login
+  url: https://meqinsights.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/meqsolutions/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
